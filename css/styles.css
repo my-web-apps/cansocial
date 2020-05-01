@@ -1,7 +1,18 @@
 .parallax {
-   width: 100%;
    background-image: url("../images/02.jpg");
    height: 50vh;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   display: table;
+   text-align: center;
+}
+
+.parallax2 {
+   background-image: url("../images/01.jpg");
+   height: 30vh;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
