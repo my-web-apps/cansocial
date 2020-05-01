@@ -1,6 +1,6 @@
 .parallax {
    width: 100%;
-   background-image: url("../images/01.jpg");
+   background-image: url("../images/02.jpg");
    height: 50vh;
    background-attachment: fixed;
    background-position: center;
@@ -14,10 +14,12 @@
 .welcome {
    display: table-cell;
    vertical-align: middle;
+   background-color: rgba(0, 0, 0, 0.3);
 }
 .welcome-text {
    color: white;
-   -webkit-text-stroke: 1px black;
+   font-weight: bold !important;
+   /* -webkit-text-stroke: 0.5px black; */
 }
 
 .special-font {
