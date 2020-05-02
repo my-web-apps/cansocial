@@ -39,8 +39,11 @@
    font-family: 'Courgette', cursive;
 }
 
-@media only screen and (max-device-width: 1366px) {
-   .parallax {
-      /* background-attachment: scroll; */
-   }
+.p-nombres {
+   font-size: 25px;
+}
+
+.footer-link {
+   color: white;
+   text-decoration: none;
 }
