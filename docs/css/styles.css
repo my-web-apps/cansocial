@@ -14,7 +14,7 @@
 .parallax2 {
    width: 100%;
    background-image: url("../images/01.jpg");
-   height: 30vh;
+   height: 40vh;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
@@ -47,3 +47,16 @@
    color: white;
    text-decoration: none;
 }
+
+label.estrella{
+   color:grey;
+   font-size: 40px;
+}
+input[type = "radio"]{ display:none;}
+.clasificacion{
+      direction: rtl;/* right to left */
+      unicode-bidi: bidi-override;/* bidi de bidireccional */
+  }
+ label.estrella:hover{color:orange;}
+ label.estrella:hover ~ label{color:orange;}
+ input[type = "radio"]:checked ~ label{color:orange;}
